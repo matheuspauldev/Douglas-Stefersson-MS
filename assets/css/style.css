@@ -53,6 +53,7 @@
         border: 2px solid #f1bf98;
         background-color: #183d4d;
         transition: 0.4s ease-in-out;
+        box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.5);
     }
     #social-links button:nth-child(1):hover {
         background: #25D366;
@@ -421,9 +422,8 @@
         background: #f1bf98;
         border-radius: 50px;
         cursor: pointer;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.5);
         transition: all 0.3s ease-out;
-        border: 1px solid #00344c;
     }
 
     .wrapper .button:hover {
