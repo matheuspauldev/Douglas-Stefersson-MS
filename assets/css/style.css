@@ -5,35 +5,80 @@
         margin: 0px;
         padding: 0px;
     }
+
     body header nav {
         background: linear-gradient(90deg, #102935 0%, #08415c 30%, #1a6385 80%, #40768f 100%);
     }
-    p, li {
+
+    p,
+    li {
         font-size: 16px;
         color: #f1bf98;
     }
-    span{
+
+    span {
         color: #bf7379;
     }
-    .span-texto{
+
+    .span-texto {
         color: #bf7379;
         font-weight: 800;
         background-color: #154a62;
         border-radius: 5px;
         padding: 3px;
     }
-    .span-texto:hover{
+
+    .span-texto:hover {
         background-color: #f1bf98;
         transition: 0.2s linear;
     }
-    .row{
+
+    .row {
         --bs-gutter-x: 0rem;
     }
+
     #logo img {
         border-radius: 15px;
         width: 130px;
         height: 32px;
     }
+
+    .wrapper {
+        display: none;
+    }
+    #social-links button{
+        border-radius: 15px;
+        width: 55px;
+        height: 35px;
+        border: 2px solid #f1bf98;
+        background-color: #183d4d;
+        transition: 0.4s ease-in-out;
+    }
+    #social-links button:nth-child(1):hover {
+        background: #25D366;
+    }
+    #social-links button:hover{
+        transition: 0.3s;
+        transform: scale(1.5);
+        transition: all transform 0.3s ease-in-out;
+    }
+    #social-links button:nth-child(2):hover {
+        background: linear-gradient(90deg,  #feda75 0%, #fa7e1e 5%, #d62976 50%, #962fbf 80%, #4f5bd5 100%);
+    }
+
+    #social-links button:nth-child(3):hover {
+        background: #db4a39;
+    }
+
+    #social-links button:nth-child(4):hover {
+        background: #ff0000;
+    }
+
+    #social-links a i{
+        color: white;
+        width: 100%;
+    }
+
     #offcanvasDarkNavbar {
         background: linear-gradient(90deg, #00344c 0%, #08415c 30%, #08415c 80%, #00344c 100%);
     }
@@ -54,78 +99,72 @@
     #offcanvasDarkNavbar div ul li button a {
         color: #fff;
     }
-    #social-links button{
-        border-radius: 15px;
-        width: 55px;
-        height: 35px;
-        border: 2px solid #f1bf98;
-        background-color: #183d4d;
-        transition: 0.4s ease-in-out;
-    }
-    #social-links button:hover{
-        transition: 0.9s;
-        transform: scale(1.3);
-        transition: transform 0.3s ease-in-out;
-        opacity: 0.9;
-        transition: opacity 0.3s ease-in-out;
-        background-color: #2a5567;
-    }
-    #social-links a i{
-        color: white;
-        width: 100%;
-    }
-    #primeira{
+
+    #primeira {
         width: 100%;
         background-image: url("/assets/img/fundo/Fundo Douglas 1.png");
-        background-size:cover;
+        background-size: cover;
         background-repeat: no-repeat;
     }
+
     section #links {
         display: flex;
         justify-content: center;
     }
+
     a {
         text-decoration: none;
         color: white;
     }
-    #perfil{
+
+    #perfil {
         width: 93%;
         height: 50vh;
         margin: 20px 10px;
     }
-    .col-6, .col-5{
+
+    .col-6,
+    .col-5 {
         display: none;
     }
-    #link-de-interesse{
+
+    #link-de-interesse {
         width: 70%;
         margin: 10px;
         transition: 0.2s linear;
         animation: pulse 2s infinite;
     }
-    #link-de-interesse:hover{
+
+    #link-de-interesse:hover {
         transform: scale(1.06);
         animation: none;
     }
+
     @keyframes pulse {
         0% {
             transform: scale(1);
         }
+
         50% {
-            transform: scale(1.06);
+            transform: scale(1.14);
         }
+
         100% {
             transform: scale(1);
-          }
         }
-    #links{
+    }
+
+    #links {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     #links ul li {
         list-style-type: none;
         font-size: 55px;
     }
+
     #links ul {
         display: flex;
         flex-direction: column;
@@ -135,6 +174,7 @@
         margin: 10px 0px 40px 0px;
         padding-left: 0px;
     }
+
     section div ul li button {
         width: 90%;
         border: none;
@@ -143,31 +183,37 @@
         background-color: #6b818c;
         transition: 0.3s;
     }
-    .btn-links:hover{
+
+    .btn-links:hover {
         transition: 0.7s;
         transform: scale(1.03);
         transition: transform 1.7s linear;
         opacity: 0.8;
         transition: opacity 1.2s linear;
     }
-    .btn-links img{
+
+    .btn-links img {
         margin: 0px;
         padding: 0px;
         height: 100%;
         width: 100%;
     }
-    .btn-links img:hover{
+
+    .btn-links img:hover {
         transform: scale(1.05);
         transition: transform 0.7s linear;
         transition: 0.3s;
     }
+
     .btn-links {
         border-radius: 30px;
     }
-    #segunda{
+
+    #segunda {
         width: 100%;
         background: linear-gradient(90deg, #376175 0%, #08415c 30%, #08415c 80%, #00344c 100%);
     }
+
     #segunda div {
         display: flex;
         flex-direction: column;
@@ -176,28 +222,35 @@
         margin: 20px;
         padding: 0;
     }
-    #segunda div div ul{
+
+    #segunda div div ul {
         text-align: justify;
     }
-    #segunda div div h1{
+
+    #segunda div div h1 {
         color: #f1bf98;
     }
-    #segunda div h2{
+
+    #segunda div h2 {
         font-size: 25px;
         text-align: justify;
     }
-    #segunda div p{
+
+    #segunda div p {
         text-align: justify;
     }
-    #terceira{
+
+    #terceira {
         margin: 0px;
         height: 100%;
         background: linear-gradient(90deg, #376175 0%, #08415c 30%, #08415c 80%, #00344c 100%);
     }
-    iframe{
+
+    iframe {
         width: 100%;
     }
-    #local{
+
+    #local {
         background: linear-gradient(#6b818b 30%, #6b818b 80%, #6b818b 100%);
         width: 90%;
         padding: 10px;
@@ -206,21 +259,26 @@
         transition: box-shadow 0.7s ease-in-out;
         transition: 0.7s;
     }
-    #local:hover{
+
+    #local:hover {
         transform: scale(1.05);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
         transition: 0.4s;
     }
-    #local h1{
+
+    #local h1 {
         margin: 10px;
         color: #102935;
     }
+
     #terceira div ul li {
         list-style-type: none;
     }
-    #terceira div h1{
+
+    #terceira div h1 {
         color: #00344c
     }
+
     .btn-link-final {
         color: #fff;
         box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.35);
@@ -232,20 +290,24 @@
         animation: pulse 2s infinite;
         margin-bottom: 30px;
     }
-    .btn-link-final:hover{
+
+    .btn-link-final:hover {
         border: 10px solid black;
         transform: scale(1.1);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
         transition: 0.4s;
         animation: none;
     }
+
     #terceira div button {
         height: 60px;
     }
-    #quarta{
+
+    #quarta {
         color: #f1bf98;
     }
-    #quarta div{
+
+    #quarta div {
         color: #00344c;
         background: linear-gradient(90deg, #6b818b 0%, #497387 30%, #497387 80%, #6b818b 100%);
         border-radius: 15px;
@@ -253,28 +315,36 @@
         transition: box-shadow 0.7s ease-in-out;
         transition: 0.7s;
     }
-    #quarta div:hover{
+
+    #quarta div:hover {
         transform: scale(1.05);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
         transition: 0.4s;
     }
-    #quarta div ul{
+
+    #quarta div ul {
         padding: 0px;
     }
-    #quarta div ul li{
+
+    #quarta div ul li {
         font-size: 22px;
     }
-    #quarta h5{
+
+    #quarta h5 {
         width: 90%;
         font-size: 26px;
         text-align: justify;
         margin-left: 20px;
     }
-    footer{
+
+    footer {
+        display: flex;
+        justify-content: center;
         background: linear-gradient(90deg, #497083 0%, #2c566a 30%, #2c566a 80%, #497083 100%);
         padding: 18px;
     }
-    #social-links-bottom button{
+
+    #social-links-bottom button {
         border-radius: 15px;
         margin: 0px 10px;
         width: 75px;
@@ -283,7 +353,8 @@
         background-color: #183d4d;
         transition: 0.4s ease-in-out;
     }
-    #social-links-bottom button:hover{
+
+    #social-links-bottom button:hover {
         transition: 0.9s;
         transform: scale(1.3);
         transition: transform 0.3s ease-in-out;
@@ -291,11 +362,13 @@
         transition: opacity 0.3s ease-in-out;
         background-color: #2a5567;
     }
-    #social-links-bottom a i{
+
+    #social-links-bottom a i {
         color: white;
         width: 100%;
     }
 }
+
 @media (min-width: 769px) {
     body {
         background-color: #ffffff;
@@ -303,32 +376,133 @@
         font-size: 22px;
     }
 
-    p, li {
+    p,
+    li {
         font-size: 20px;
         color: #f1bf98;
     }
-    span{
+
+    span {
         color: #bf7379;
     }
-    .span-texto{
+
+    .span-texto {
         color: #bf7379;
         font-weight: 800;
         background-color: #154a62;
         border-radius: 5px;
         padding: 3px;
     }
-    .span-texto:hover{
+
+    .span-texto:hover {
         background-color: #f1bf98;
         transition: 0.2s linear;
     }
+
     body header nav {
         background: linear-gradient(90deg, #102935 0%, #08415c 30%, #1a6385 80%, #40768f 100%);
     }
+
     #logo img {
         border-radius: 15px;
         width: 180px;
         height: 40px;
     }
+
+    #social-links{
+        display: none;
+    }
+
+    .wrapper .button {
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        text-decoration: none;
+        margin: 5px 5px 0 5px;
+        overflow: hidden;
+        background: #f1bf98;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-out;
+        border: 1px solid #00344c;
+    }
+
+    .wrapper .button:hover {
+        width: 200px;
+        background: #ffffff;
+    }
+
+    .wrapper .button .icon {
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        color: #000;
+        text-align: center;
+        border-radius: 50px;
+        box-sizing: border-box;
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+    }
+
+    .wrapper .button:nth-child(1):hover .icon {
+        background: #25D366;
+    }
+
+    .wrapper .button:nth-child(2):hover .icon {
+        background: linear-gradient(90deg,  #feda75 0%, #fa7e1e 5%, #d62976 50%, #962fbf 80%, #4f5bd5 100%);
+    }
+
+    .wrapper .button:nth-child(3):hover .icon {
+        background: #1877F2;
+    }
+
+    .wrapper .button:nth-child(4):hover .icon {
+        background: #db4a39;
+    }
+
+    .wrapper .button:nth-child(5):hover .icon {
+        background: #ff0000;
+    }
+
+    .wrapper .button .icon i {
+        font-size: 25px;
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+    }
+
+    .wrapper .button:hover .icon i {
+        color: #fff;
+    }
+
+    .wrapper .button span {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-left: 10px;
+        transition: all 0.3s ease-out;
+    }
+
+    .wrapper .button:nth-child(1) span {
+        color: green;
+    }
+
+    .wrapper .button:nth-child(2) span {
+        color: linear-gradient(90deg,  #feda75 0%, #fa7e1e 5%, #d62976 50%, #962fbf 80%, #4f5bd5 100%);
+    }
+
+    .wrapper .button:nth-child(3) span {
+        color: #1877F2;
+    }
+
+    .wrapper .button:nth-child(4) span {
+        color: #db4a39;
+    }
+
+    .wrapper .button:nth-child(5) span {
+        color: #ff0000;
+    }
+
     #offcanvasDarkNavbar {
         background: linear-gradient(90deg, #00344c 0%, #08415c 30%, #08415c 80%, #00344c 100%);
     }
@@ -349,63 +523,49 @@
     #offcanvasDarkNavbar div ul li button a {
         color: #fff;
     }
-    #social-links button{
-        border-radius: 15px;
-        width: 80px;
-        height: 45px;
-        border: 2px solid #f1bf98;
-        background-color: #183d4d;
-        transition: 0.4s ease-in-out;
-    }
-    #social-links button:hover{
-        transition: 0.9s;
-        transform: scale(1.3);
-        transition: transform 0.3s ease-in-out;
-        opacity: 0.9;
-        transition: opacity 0.3s ease-in-out;
-        background-color: #2a5567;
-    }
-    #social-links a{
-        margin: 0px 20px;
-    }
-    #social-links a i{
-        color: white;
-        width: 100%
-    }
-    #primeira{
+
+    #primeira {
         width: 100%;
         background-image: url("/assets/img/fundo/Fundo Douglas 1.png");
-        background-size:cover;
+        background-size: cover;
         background-repeat: no-repeat;
     }
-    .row{
+
+    .row {
         --bs-gutter-x: 0rem;
     }
+
     section #links {
         display: flex;
         justify-content: center;
     }
+
     a {
         text-decoration: none;
         color: white;
     }
-    #perfil{
+
+    #perfil {
         width: 110%;
         margin-left: 40px;
     }
-    .col-12{
+
+    .col-12 {
         display: none;
     }
-    #links{
+
+    #links {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
     }
+
     #links ul li {
         list-style-type: none;
         font-size: 55px;
     }
+
     #links ul {
         display: flex;
         flex-direction: column;
@@ -415,6 +575,7 @@
         margin-top: 35px;
         padding-left: 0px;
     }
+
     section div ul li button {
         width: 60%;
         border: none;
@@ -423,60 +584,73 @@
         background-color: #6b818c;
         transition: 0.3s;
     }
-    .btn-links:hover{
+
+    .btn-links:hover {
         transition: 0.7s;
         transform: scale(1.03);
         transition: transform 1.7s linear;
         opacity: 0.8;
         transition: opacity 1.2s linear;
     }
-    .btn-links img{
+
+    .btn-links img {
         margin: 0px;
         padding: 0px;
         height: 100%;
         width: 100%;
     }
-    .btn-links img:hover{
+
+    .btn-links img:hover {
         transform: scale(1.05);
         transition: transform 0.7s linear;
         transition: 0.3s;
     }
+
     .btn-links {
         border-radius: 30px;
     }
+
     i {
         color: black;
     }
-    #quarto-item{
+
+    #quarto-item {
         display: none;
     }
+
     #segunda {
         height: 100vh;
         width: 100%;
         background: linear-gradient(90deg, #376175 0%, #08415c 30%, #08415c 80%, #00344c 100%);
     }
+
     #segunda div {
         background-color: #6b818b;
         margin: 0;
         padding: 0;
         border-radius: 200px 0px 0px 200px;
     }
-    #segunda div div ul{
+
+    #segunda div div ul {
         text-align: justify;
     }
-    #segunda div div h1{
+
+    #segunda div div h1 {
         color: #f1bf98;
     }
-    #segunda div p{
+
+    #segunda div p {
         text-align: justify;
     }
+
     #terceira {
         margin: 0px;
         height: 100vh;
         width: 100%;
         background: linear-gradient(90deg, #376175 0%, #08415c 30%, #08415c 80%, #00344c 100%);
     }
-    #local{
+
+    #local {
         background: linear-gradient(#6b818b 30%, #6b818b 80%, #6b818b 100%);
         width: 50%;
         height: 80%;
@@ -485,21 +659,26 @@
         transition: box-shadow 0.7s ease-in-out;
         transition: 0.7s;
     }
-    #local:hover{
+
+    #local:hover {
         transform: scale(1.05);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
         transition: 0.4s;
     }
-    #local h1{
+
+    #local h1 {
         margin: 10px;
         color: #102935;
     }
+
     #terceira div ul li {
         list-style-type: none;
     }
-    #terceira div h1{
+
+    #terceira div h1 {
         color: #00344c
     }
+
     .btn-link-final {
         color: #fff;
         width: 300px;
@@ -512,32 +691,39 @@
         border: 0px;
         animation: pulse 2s infinite;
     }
+
     @keyframes pulse {
         0% {
             transform: scale(1);
         }
+
         50% {
             transform: scale(1.15);
         }
+
         100% {
             transform: scale(1);
-          }
         }
-    .btn-link-final:hover{
+    }
+
+    .btn-link-final:hover {
         border: 10px solid black;
         transform: scale(1.1);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
         transition: 0.4s;
         animation: none;
     }
+
     #terceira div button {
         width: 250px;
         height: 60px;
     }
-    #quarta{
+
+    #quarta {
         color: #f1bf98;
     }
-    #quarta div{
+
+    #quarta div {
         color: #00344c;
         background: linear-gradient(90deg, #6b818b 0%, #497387 30%, #497387 80%, #6b818b 100%);
         border-radius: 15px;
@@ -545,26 +731,34 @@
         transition: box-shadow 0.7s ease-in-out;
         transition: 0.7s;
     }
-    #quarta div:hover{
+
+    #quarta div:hover {
         transform: scale(1.05);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
         transition: 0.4s;
     }
-    #quarta div ul{
+
+    #quarta div ul {
         padding: 0px;
     }
-    #quarta li{
+
+    #quarta li {
         font-size: 26px;
     }
-    #quarta h5{
+
+    #quarta h5 {
         font-size: 26px;
         text-align: justify;
     }
-    footer{
+
+    footer {
+        display: flex;
+        justify-content: center;
         background: linear-gradient(90deg, #497083 0%, #2c566a 30%, #2c566a 80%, #497083 100%);
         padding: 8px;
     }
-    #social-links-bottom button{
+
+    #social-links-bottom button {
         border-radius: 15px;
         margin: 0px 10px;
         width: 155px;
@@ -573,7 +767,8 @@
         background-color: #183d4d;
         transition: 0.4s ease-in-out;
     }
-    #social-links-bottom button:hover{
+
+    #social-links-bottom button:hover {
         transition: 0.9s;
         transform: scale(1.3);
         transition: transform 0.3s ease-in-out;
@@ -581,7 +776,8 @@
         transition: opacity 0.3s ease-in-out;
         background-color: #2a5567;
     }
-    #social-links-bottom a i{
+
+    #social-links-bottom a i {
         color: white;
         width: 100%;
     }
