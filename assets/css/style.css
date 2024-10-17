@@ -102,9 +102,7 @@
 
     #primeira {
         width: 100%;
-        background-image: url("/assets/img/fundo/Fundo Douglas 1.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color: #6b818c;
     }
 
     section #links {
@@ -119,7 +117,7 @@
 
     #perfil {
         width: 93%;
-        height: 50vh;
+        height: 53vh;
         margin: 20px 10px;
     }
 
@@ -526,9 +524,7 @@
 
     #primeira {
         width: 100%;
-        background-image: url("/assets/img/fundo/Fundo Douglas 1.png");
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color: #6b818c;
     }
 
     .row {
