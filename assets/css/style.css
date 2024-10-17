@@ -283,7 +283,7 @@
         box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.35);
         transition: transform 0.9s ease-in-out;
         transition: box-shadow 0.2s ease-in-out;
-        background: linear-gradient(90deg, #052d3f 0%, #bf7379 30%, #bf7379 80%, #052d3f 100%);
+        background: linear-gradient(90deg, #052d3f 0%, #25D366 30%, #25D366 80%, #052d3f 100%);
         border-radius: 30px;
         border: 0px;
         animation: pulse 2s infinite;
@@ -682,7 +682,7 @@
         box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.35);
         transition: transform 0.9s ease-in-out;
         transition: box-shadow 0.2s ease-in-out;
-        background: linear-gradient(90deg, #052d3f 0%, #bf7379 30%, #bf7379 80%, #052d3f 100%);
+        background: linear-gradient(90deg, #052d3f 0%, #25D366 30%, #25D366 80%, #052d3f 100%);
         border-radius: 30px;
         border: 0px;
         animation: pulse 2s infinite;
