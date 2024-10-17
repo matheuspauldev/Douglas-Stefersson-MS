@@ -63,7 +63,7 @@
         transition: all transform 0.3s ease-in-out;
     }
     #social-links button:nth-child(2):hover {
-        background: linear-gradient(90deg,  #feda75 0%, #fa7e1e 5%, #d62976 50%, #962fbf 80%, #4f5bd5 100%);
+        background: linear-gradient(90deg,  #feda75 0%, #fa7e1e 5%, #d62976 30%, #962fbf 80%, #4f5bd5 100%);
     }
 
     #social-links button:nth-child(3):hover {
