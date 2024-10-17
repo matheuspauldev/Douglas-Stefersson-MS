@@ -49,7 +49,7 @@
     }
     #social-links button{
         border-radius: 15px;
-        width: 40px;
+        width: 50px;
         height: 35px;
         border: 2px solid #f1bf98;
         background-color: #183d4d;
@@ -81,25 +81,8 @@
         width: 100%;
     }
 
-    #offcanvasDarkNavbar {
-        background: linear-gradient(90deg, #00344c 0%, #08415c 30%, #08415c 80%, #00344c 100%);
-    }
-
-    #offcanvasDarkNavbar div h5 {
-        color: #fff;
-    }
-
-    #offcanvasDarkNavbar div ul {
-        margin-top: 10px;
-        gap: 8px;
-    }
-
-    #offcanvasDarkNavbar div ul li button {
-        width: 100%;
-    }
-
-    #offcanvasDarkNavbar div ul li button a {
-        color: #fff;
+    .navbar-toggler {
+        display: none;
     }
 
     #primeira {
