@@ -167,29 +167,22 @@
         transition: 0.3s;
     }
 
-    .btn-links:hover {
-        transition: 0.7s;
-        transform: scale(1.03);
-        transition: transform 1.7s linear;
-        opacity: 0.8;
-        transition: opacity 1.2s linear;
-    }
-
     .btn-links img {
-        margin: 0px;
+        margin-top: 10px;
         padding: 0px;
         height: 100%;
         width: 100%;
+        box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+        transition: box-shadow 0.7s ease-in-out;
+        transition: 0.7s;
+        border-radius: 15px;
     }
 
     .btn-links img:hover {
         transform: scale(1.05);
         transition: transform 0.7s linear;
+        box-shadow: 15px 16px 20px 5px rgba(0, 0, 0, 0.35);
         transition: 0.3s;
-    }
-
-    .btn-links {
-        border-radius: 30px;
     }
 
     #segunda {
@@ -207,20 +200,21 @@
     }
 
     #segunda div div ul {
-        text-align: justify;
+        text-align: start;
+    }
+    
+    #segunda div div ul li{
+        font-size: 17px;
     }
 
     #segunda div div h1 {
         color: #f1bf98;
-    }
-
-    #segunda div h2 {
-        font-size: 25px;
-        text-align: justify;
+        font-size: 44px;
     }
 
     #segunda div p {
-        text-align: justify;
+        text-align: start;
+        font-size: 17px;
     }
 
     #terceira {
@@ -318,6 +312,9 @@
         font-size: 26px;
         text-align: justify;
         margin-left: 20px;
+    }
+    #quarta button i{
+        color: #ffffff;
     }
 
     footer {
@@ -565,33 +562,31 @@
         transition: 0.3s;
     }
 
-    .btn-links:hover {
-        transition: 0.7s;
-        transform: scale(1.03);
-        transition: transform 1.7s linear;
-        opacity: 0.8;
-        transition: opacity 1.2s linear;
-    }
-
     .btn-links img {
-        margin: 0px;
+        margin: 10px;
+        margin-left: 60px;
         padding: 0px;
         height: 100%;
         width: 100%;
+        box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+        transition: box-shadow 0.7s ease-in-out;
+        transition: 0.7s;
+        border-radius: 15px;
     }
 
     .btn-links img:hover {
         transform: scale(1.05);
         transition: transform 0.7s linear;
+        box-shadow: 15px 16px 20px 5px rgba(0, 0, 0, 0.35);
         transition: 0.3s;
-    }
-
-    .btn-links {
-        border-radius: 30px;
     }
 
     i {
         color: black;
+    }
+
+    #quarta button i{
+        color: #ffffff;
     }
 
     #quarto-item {
